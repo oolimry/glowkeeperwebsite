@@ -70,6 +70,17 @@ main {
   color: var(--dark);
 }
 
+.tiny-link {
+  color: white;
+  font-size: 0.7em;
+  padding-top: 2px;
+}
+
+.tiny-link:hover {
+  color: #A0CDFA;
+}
+
+
 .impt-info svg {
   width: 48px;
 }
