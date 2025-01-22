@@ -37,6 +37,7 @@ main {
   margin: 0 auto;
   padding: 16px 0;
   margin-top: -5vw;
+  padding-bottom: 64px;
 }
 
 
@@ -83,4 +84,11 @@ main {
 
 .impt-info svg {
   width: 48px;
+}
+
+
+.ss-img {
+  width: 80%;
+  display: block;
+  margin: 32px auto;
 }
