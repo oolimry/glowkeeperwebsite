@@ -92,3 +92,22 @@ main {
   display: block;
   margin: 32px auto;
 }
+
+
+.mobile {
+  display: none !important;
+}
+
+@media (max-width: 525px) {
+  .impt-info {
+    flex-flow: column;
+  }
+
+  .desktop {
+    display: none !important;
+  }
+
+  .mobile {
+    display: block !important;
+  }
+}
