@@ -33,7 +33,7 @@ body {
 
 
 main {
-  width: 80%;
+  width: 64%;
   margin: 0 auto;
   padding: 16px 0;
   margin-top: -5vw;
@@ -45,6 +45,7 @@ main {
   display: flex;
   gap: 30px;
   justify-content: center;
+  margin-bottom: 64px;
 }
 
 .impt-info a {
@@ -56,6 +57,7 @@ main {
   border: 2px solid var(--white);
   padding: 15px 20px;
   border-radius: 8px;
+  font-size: 1.5em;
 
   transition: 0.2s;
 
@@ -63,6 +65,12 @@ main {
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+.impt-info a.small {
+
+  border-radius: 100px;
+  padding: 20px;
 }
 
 
@@ -73,7 +81,7 @@ main {
 
 .tiny-link {
   color: white;
-  font-size: 0.7em;
+  /* font-size: 0.7em; */
   padding-top: 2px;
 }
 
@@ -81,14 +89,13 @@ main {
   color: #A0CDFA;
 }
 
-
 .impt-info svg {
   width: 48px;
 }
 
 
 .ss-img {
-  width: 80%;
+  width: 100%;
   display: block;
   margin: 32px auto;
 }
