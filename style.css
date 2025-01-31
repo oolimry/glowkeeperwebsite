@@ -16,12 +16,15 @@ body {
   color: var(--white);
   font-family: "Parkinsans", sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: <; */
   font-style: normal;
   font-size: 1.5em;
 
 }
 
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
 
 .backg-img {
   width: 100%;
@@ -37,6 +40,7 @@ main {
   margin: 0 auto;
   padding: 16px 0;
   padding-bottom: 64px;
+  padding-top: 0;
 }
 
 
@@ -78,6 +82,20 @@ main {
   color: var(--dark);
 }
 
+
+.email-embed {
+  flex-flow: column;
+  margin-top: 64px;
+
+  border: 2px solid var(--white);
+  padding: 30px 20px;
+  border-radius: 8px;
+}
+
+.email-embed iframe {
+  min-width: 60%;
+}
+
 .tiny-link {
   color: white;
   /* font-size: 0.7em; */
@@ -92,11 +110,29 @@ main {
   width: 48px;
 }
 
+.ss-imgs {
+  margin-top: 64px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  justify-content: center;
 
-.ss-img {
-  width: 100%;
+}
+
+.ss-imgs img {
+  width: calc(50% - 10px);
   display: block;
-  margin: 32px auto;
+  border-radius: 8px;
+  /* margin: 32px auto; */
+}
+
+
+footer {
+  text-align: center;
+  /* width: 100vw; */
+  font-size: 0.8em;
+  padding: 16px 32px;
+  /* padding-bottom: 32px; */
 }
 
 
@@ -105,8 +141,15 @@ main {
 }
 
 @media (max-width: 525px) {
+  main {
+    width: 95%;
+  }
   .impt-info {
-    flex-flow: column;
+    flex-flow: row wrap;
+  }
+
+  .ss-imgs img {
+    width: 100%;
   }
 
   .desktop {
