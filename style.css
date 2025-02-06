@@ -90,6 +90,7 @@ main {
   border: 2px solid var(--white);
   padding: 30px 20px;
   border-radius: 8px;
+  margin-bottom: 32px;
 }
 
 .email-embed iframe {
@@ -141,11 +142,22 @@ footer {
 }
 
 @media (max-width: 525px) {
+  body {
+    font-size: 1.2em;
+  }
   main {
     width: 95%;
   }
   .impt-info {
-    flex-flow: row wrap;
+    gap: 12px;
+  }
+
+  .impt-info a {
+    padding: 10px;
+  }
+
+  .impt-info svg {
+    width: 32px;
   }
 
   .ss-imgs img {
